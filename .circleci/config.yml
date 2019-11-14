@@ -8,4 +8,4 @@ jobs: # a collection of steps
       - checkout # special step to check out source code to working directory
       - run:
           name: build-docker
-          command: docker build
+          command: docker build .
